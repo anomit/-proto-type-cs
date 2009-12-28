@@ -6,5 +6,5 @@ At this point `echo "blah" > mountpoint/cs` doesn't work though a plain old
 write() does the trick. I have no idea why. Find a small program for 
 testing purposes in test/.
 
-$test/wt /tmp/fusedir /tmp/fusedir www.glendix.org
+$test/wt /tmp/fusedir www.glendix.org
 $cat /tmp/fusedir/cs
